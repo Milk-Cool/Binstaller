@@ -20,3 +20,4 @@ for example,
 $appGeany = "https://download.geany.org/geany-1.38_setup.exe"
 $argsGeany = "/S"
 ```
+And you're done! Upload your script to pastebin and change the link in the payload.
